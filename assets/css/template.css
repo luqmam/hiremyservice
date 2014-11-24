@@ -1,0 +1,28 @@
+/* **************** TEMPLATE ***************** */
+/* ====== Page Head, Body, and Foot ====== */
+body { _text-align:center; }/* IE5.5 */
+.body { overflow:hidden; _overflow:visible; _zoom:1; }
+.page { margin: 0 auto; width:100%; _text-align:left; } /* wraps other template elems to set width */ /* text-align IE5.5 */
+/* "old school" and "liquid" extend page to allow for different page widths */
+
+.head { margin:0; padding:0; background-image: url('../images/background/head-bg.jpg'); background-repeat: repeat-x; background-position: top; height:64px }
+.body { margin:0; padding:0; background-color:#FFFFFF; }
+.foot { margin:0; padding:0; background-image: url('../images/background/foot-bg.jpg'); background-repeat: repeat-x; background-position: bottom; height:34px }
+.head,
+.body,
+.foot { _border:2px solid green; }
+.headContent,
+.footContent { margin:auto; padding:0; width:980px; _border:1px solid red; }
+.bodyContent { _border:1px solid red; }
+.headContent { min-height: 55px; }
+.width980px,
+.width600px{ margin:0 auto; }
+.width980px { width:980px; }
+.width600px{  width:600px }
+.level-2 { margin:0 auto; }
+.level-3 { }
+/* ====== Columns ====== */
+.main { _overflow: hidden; overflow:visible; _zoom:1; }
+.leftCol { float:left; width:250px; _margin-right:-3px; }
+.rightCol { float:right; width: 300px; _margin-left:-3px; }
+/* extend columns to allow for common column widths */

@@ -1,0 +1,32 @@
+select,
+textarea,
+input[type=text],
+input[type=password]  { border: 1px solid #ccc; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; -moz-box-shadow: 2px 2px 3px #666; -webkit-box-shadow: 2px 2px 3px #666; box-shadow: 2px 2px 3px #666; padding:0; outline: 0; width:95%; height:25px }
+
+select.type1,
+textarea.type1,
+input[type=text].type1 { -moz-border-radius: 12px; -webkit-border-radius: 12px; border-radius: 12px; -moz-box-shadow: 0 0 0 0;
+-webkit-box-shadow: 0 0 0 0;
+box-shadow: 0 0 0 0;}
+
+textarea,
+input[type=text],
+input[type=password] { -webkit-appearance: none; }
+input[type=submit] { padding: 4px 37px; border-radius: 8px !important; -moz-border-radius: 8px; -webkit-border-radius: 8px;  }
+
+input[type="checkbox"],
+input[type="checkbox"] + label,
+input[type="checkbox"] + label + label,
+input[type="radio"] { margin:0 0 5px 5px; padding:0 }
+
+
+
+
+input[type=submit].blue { padding: 6px 20px; background-image: url(../images/blue-btn.png);   }
+input[type=submit].big-blue { margin:0 0 10px 0; padding:5px 30px 10px 30px; background-image: url(../images/big-blue-btn.png); border-radius: 20px !important; -moz-border-radius: 20px; -webkit-border-radius: 20px;);
+} background-image: url(../images/big-blue-btn.png);   }
+input[type=submit]:focus { border-color: #333; }
+input[readonly] { background-color:rgb(240, 240, 240) }
+.label{margin: 3px 10px 0 0;}
+.input{ margin: 0 0 15px 0; }
+textarea { height:100px; }

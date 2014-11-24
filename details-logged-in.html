@@ -1,0 +1,313 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+
+<!--oocss start-->
+<link rel="stylesheet" type="text/css" href="assets/css/libraries.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/template.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/grids.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/content.css" />
+<!--oocss end-->
+<link rel="stylesheet" type="text/css" href="assets/css/menu.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/miscellaneous.css" />
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/jflow.style.css" />
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+<script type="text/javascript" src="assets/scripts/jflow.plus.js"></script>
+<link rel="stylesheet" type="text/css" href="assets/css/tabs.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/forms.css" />
+<script type="text/javascript" src="assets/scripts/scripts.js"></script>
+</head>
+<form action="" method="post" name="">
+<body onload="init()">
+<div class="page">
+  <div class="body clear">
+    <div class="bodyContent">
+      <div class="main">
+      	<div id="details-logged-in">
+			<div class="line width980px">
+          <h1>Step 2 - Enter your details</h1>
+          <br />
+          <img src="assets/images/details-logged-in-nav-step2.png" />
+          <div class="box1">
+            <div class="line">
+              <h1>Ad Details</h1>
+              <br />
+              <div class="line">
+                <div class="unit size1of4">
+                  <div class="label float-r">
+                    <label>Chosen Category: </label>
+                  </div>
+                </div>
+                <div class="unit size1of2">
+                  <div class="input">
+                    <input style="margin:0; padding:0" type="text" readonly="readonly"/>
+                  </div>
+                </div>
+                <div class="unit size1of4 lastUnit"><a class="style2" href="">Change the Category</a></div>
+              </div>
+              
+              <div class="line">
+                <div class="unit size1of4">
+                  <div class="label float-r">
+                    <label>Postal Code: </label>
+                  </div>
+                </div>
+                <div class="unit size1of5">
+                  <div class="input">
+                    <input type="text"/>
+                  </div>
+                </div>
+                <div class="unit size1of10">
+                  <input type="submit" class="blue" value="Lookup"/>
+                </div>
+                <div class="unit size1of10 lastUnit">
+                  <input type="checkbox"/>
+                  <label>By Maps</label>
+                </div>
+                <div class="unit size1of5 lastUnit"> </div>
+              </div>
+               
+              <div class="line">
+                <div class="unit size1of4">
+                  <div class="label float-r">
+                    <label>Title for your Ad: </label>
+                  </div>
+                </div>
+                <div class="unit size1of2">
+                  <div class="input">
+                    <input type="text"/>
+                  </div>
+                </div>
+                <div  class=" size1of4 lastUnit"></div>
+              </div>
+      
+              <div class="line">
+                <div class="unit size1of4">
+                  <div class="label float-r">
+                    <label>Address: </label>
+                  </div>
+                </div>
+                <div class="unit size1of2">
+                  <div class="input">
+                    <input type="text"/>
+                  </div>
+                </div>
+                <div  class=" size1of4 lastUnit"></div>
+              </div>
+         
+              <div class="line">
+                <div class="unit size1of4">
+                  <div class="label float-r">
+                    <label>Ad Description: </label>
+                  </div>
+                </div>
+                <div class="unit size1of2">
+                  <div class="input">
+                    <input type="text"/>
+                  </div>
+                </div>
+                <div  class=" size1of4 lastUnit"></div>
+              </div>
+          
+             <div class="line">
+                  <div class="unit size1of4">
+                    <div class="label float-r">
+                      <label>Main Photo: </label>
+                    </div>
+                  </div>
+                  <div class="unit size1of2">
+                    <div class="input">
+                      <input type="file" size="40" name="image-upload" id="image-upload">
+                      <br />
+                      <br />
+                      
+                      <!-- Generated Image Thumbnail --> 
+                      <img class="main-thumb" alt="image preview " src="" id="image-thumb"> </div>
+                  </div>
+                  <div  class=" size1of4 lastUnit"></div>
+                </div>
+                <div class="line">
+                  <div class="unit size1of4">
+                    <div class="label float-r">
+                      <label>Alternate Photo: </label>
+                    </div>
+                  </div>
+                  <div class="unit size1of2">
+                    <div class="input">
+                      <input type="file" size="40" name="image-upload" id="image-upload">
+                      <br />
+                      <br />
+                      
+                      <!-- Generated Image Thumbnail -->
+                      <ul class="alternate-thumbs">
+                        <li><img alt="image preview " src="" id="image-thumb"></li>
+                        <li><img alt="image preview " src="" id="image-thumb"></li>
+                        <li><img alt="image preview " src="" id="image-thumb"></li>
+                        <li><img alt="image preview " src="" id="image-thumb"></li>
+                        <li><img alt="image preview " src="" id="image-thumb"></li>
+                        <li><img alt="image preview " src="" id="image-thumb"></li>
+                        <li><img alt="image preview " src="" id="image-thumb"></li>
+                        <li><img alt="image preview " src="" id="image-thumb"></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div  class=" size1of4 lastUnit"></div>
+                </div>
+            
+              <div class="line">
+                <div class="unit size1of4">
+                  <div class="label float-r">
+                    <label>Ad URL Link: </label>
+                  </div>
+                </div>
+                <div class="unit size1of2">
+                  <div class="input">
+                    <input type="text"/>
+                  </div>
+                </div>
+                <div  class=" size1of4 lastUnit"></div>
+              </div>
+            </div>
+            <div class="line">
+              <h1>Extra</h1>
+              <br />
+              <div class="line">
+                <div class="unit size3of5">
+                  <input type="checkbox" name="foo" value="bar1" />
+                  <label>Feature your ad - Stay at the top of listings</label>
+                </div>
+                <div class="unit size1of10">
+                  <h5>25</h5>
+                </div>
+              </div>
+              <div class="line">
+                <div class="unit size3of5">
+                  <input type="checkbox" name="foo" value="bar2"/>
+                  <label>Feature your ad - Stay at the top of listings</label>
+                </div>
+                <div class="unit size1of10">
+                  <h5>50</h5>
+                </div>
+              </div>
+              <div class="line">
+                <div class="unit size3of5">
+                  <input type="checkbox" name="foo" value="bar3"/>
+                  <label>Feature your ad - Stay at the top of listings</label>
+                </div>
+                <div class="unit size1of10">
+                  <h5>10</h5>
+                </div>
+              </div>
+              <div class="line">
+                <div class="unit size3of5">
+                  <input type="checkbox" name="foo" value="bar4"/>
+                  <label>Make your ad urgent - Make your ad stand out on the page for 7 days</label>
+                </div>
+                <div class="unit size1of10">
+                  <h5>100</h5>
+                </div>
+              </div>
+              <div class="line">
+                <div class="unit size3of5">
+                  <input type="checkbox" name="foo" value="bar5" />
+                  <label>Ad spotlight - Get maximum exposure for your ad with 7 days on the HMS homepage</label>
+                </div>
+                <div class="unit size1of10">
+                  <h5>250</h5>
+                </div>
+              </div>
+              <div class="line">
+                <div class="unit size3of5">
+                  <input type="checkbox" onClick="toggle(this)"/>
+                  <label>Select/DeSelect All</label>
+                </div>
+                <div class="unit size1of10"> </div>
+              </div>
+            </div>
+            <br />
+            <div class="line">
+              <h1>Seller Informations</h1>
+              <br />
+              <div class="box2">
+                <h2>Please fill your information</h2>
+                <div class="line">
+                  <div class="unit size1of4">
+                    <div class="label float-r">
+                      <label>Name: </label>
+                    </div>
+                  </div>
+                  <div class="unit size1of2">
+                    <div class="input">
+                      <input type="text" />
+                    </div>
+                  </div>
+                  <div  class=" size1of4 lastUnit"></div>
+                </div>
+                <div class="line">
+                  <div class="unit size1of4">
+                    <div class="label float-r">
+                      <label>Phone Number: </label>
+                    </div>
+                  </div>
+                  <div class="unit size1of2">
+                    <div class="input">
+                      <input type="text" />
+                    </div>
+                  </div>
+                  <div  class=" size1of4 lastUnit"></div>
+                </div>
+                <div class="line">
+                  <div class="unit size1of4">
+                    <div class="label float-r">
+                      <label>Ad Address: </label>
+                    </div>
+                  </div>
+                  <div class="unit size1of2">
+                    <div class="input">
+                      <input type="text" />
+                    </div>
+                  </div>
+                  <div  class=" size1of4 lastUnit"></div>
+                </div>
+                <h2>How would you like to be contacted?</h2>
+                <br />
+                <div class="line size1of2">
+                  <div class="unit size1of4">
+                    <input type="radio" name="contact"  />
+                    <label>By Phone</label>
+                  </div>
+                  <div class="unit size1of4">
+                    <input type="radio" name="contact"  />
+                    <label>via Email</label>
+                  </div>
+                  <div class="unit size1of4 lastUnit">
+                    <input type="radio" name="contact" />
+                    <label>Both</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br />
+            <div class="line">
+              <div class="unit size4of5">
+                <input type="checkbox" />
+                <label>By posting your ad, you are agreeing to the HireMyServices Terms & Sonditions and the HireMyServices Privacy Policy.</label>
+              </div>
+              <div class="unit size1of5 txtR">
+                <input type="submit" class="blue" value="POST AN AD" />
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</form>
+</html>

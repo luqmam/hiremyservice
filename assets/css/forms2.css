@@ -1,0 +1,174 @@
+input.text,
+select,
+textarea { border-radius:3px; border:1px solid #fff; border-left:2px solid #aeafaf; border-top:1px solid #aeafaf; font-size:1.4em }
+.form div.field { position:relative; padding:0 0 18px 0; width:100% }
+.form div.label,
+h2.label { text-align:right; display:block; padding-bottom:10px; float:left; width:210px; padding-right:10px }
+h2.label { font-size:1.2em; font-weight:normal }
+#contentSmall .clear label { padding-right:5px }
+#contentSmall .clear label.circle { padding:5px 26px 25px 0 }
+.form div.label label { display:block; padding-top:5px }
+#content .form div.label p { padding-bottom:0; margin-bottom:0 }
+.twoNav #contentSmall .form { padding-right:0 }
+#panel .form { padding-right:0 }
+.field .validImage { padding-left:20px }
+.field-ppNumber .validImage { padding-left:10px; float:left; margin-top:3px }
+.field div.postcode .validImage { float:left }
+#content .validationError p,
+#content .errorTopAcctDel p { background-color:#f00; margin-bottom:0; padding:9px 20px 15px 0; font-size:1.4em; font-weight:bold }
+.validationError { background:url("../images/backgrounds/errorTop.png") no-repeat left top; padding-top:9px; margin-top:-11px }
+.errorTopAcctDel { background:url("../images/backgrounds/errorTopAcctDel.png") no-repeat left top; padding-top:9px; margin-top:-11px }
+.validator ul li { list-style-type:none; margin-left:0; font-size:1em; padding-bottom:8px }
+.validator ul li:last-child { padding-bottom:0 }
+.validator ul { margin-bottom:0; padding-bottom:0 }
+.buttonBar { padding-top:20px; background:url("../images/backgrounds/hr.gif") repeat-x top left; width:100%; float:right }
+.basket .buttonBar { background:0; padding-top:0 }
+.buttonBar a,
+.buttonBar input { margin-left:10px }
+.buttonBar a { font-size:1.2em; float:left }
+.buttonBar a.primaryButton { font-size:1.4em }
+.buttonBar a.secButton { display:inline-block; margin-top:14px }
+.buttonBar a.secButton1 { display:inline-block; margin-top:5px }
+#basketQuestion .buttonBar a.secButton1 { float:left }
+.activation-failed .buttonBar { background:0; padding:0 }
+.form .input,
+.form div.help { float:left; padding-right:8px; padding-left:10px }
+.form .field a.helpLink { margin-left:5px }
+.sidePanel2 { float:right; position:relative }
+#content .form .input .text,
+#content .form .input textarea { width:250px; min-height:23px; color:#5a5a5a }
+#content .form .input #mobileNumber { width:160px!important }
+#content .form .input #retailerId { width:160px!important }
+#content .addAccount .input #mobileNumber { width:220px!important }
+#content .form td .input .text,
+#content .form td .input textarea { font-size:1em }
+#content .form .input select.text { height:24px; width:223px }
+#panel .form .input .text,
+#panel .form .input textarea { width:120px }
+.form .input p { float:left }
+.form .input p.buttonRight { float:none; text-align:right }
+.form .field p { padding-top:10px }
+.form .field p.first { padding-top:0; margin:0!important }
+.form div.radio .input { width:auto }
+.form div.radio .label { width:90% }
+.form div.radio .input,
+.form div.radio .label { float:left }
+.form div.radio input { position:relative; top:-5px; width:13px!important }
+#formForVoucherSubmission .form div.radio .input img { margin-top:-20px }
+#formForVoucherSubmission .form div.radio .input div.validator { margin-top:-20px!important }
+.form .postcode .text { width:auto }
+.form .forgotPw { margin-left:226px }
+.form .forgotPw .forgetPwdEmailConfirm { margin-left:5px }
+#content p.ssValidator,
+#content ul.ssValidator li { list-style-type:none; margin-left:0; float:none; color:#f00; font-weight:bold; margin-bottom:5px; margin-top:5px; display:block; padding-top:0 }
+#content .checkoutSummary .label { width:auto }
+.valid { background:url(../images/icons/iconMatched.gif) no-repeat 0 50%; padding:5px 25px }
+.validField span.valid { background:url(../images/icons/grey-tick.gif) no-repeat right center }
+.invalidField .text,
+.invalidField textarea { border:1px solid #f00; color:#d00!important }
+.invalidField select { padding-left:1px }
+.error { background-color:#f68e89; padding:10px; border:1px solid #efd4e2; margin-bottom:10px; color:#333 }
+.twoPanel .error { width:72% }
+.errorTooltip { padding-left:10px }
+.validator { padding-bottom:2px; padding-right:2px; float:left; position:absolute; font-size:1.2em; background:url(../images/backgrounds/drop_shadow.png) repeat left top; z-index:1010 }
+.validator div { background-color:#fe0000; color:#fff; padding:19px; border:1px solid #a3a3a3; width:191px }
+.validator span { position:absolute; background:url(../images/backgrounds/errorTooltipLeft.png) no-repeat left top; display:block; height:13px; width:10px; left:-9px; top:40% }
+.toolTip { background:url(../images/backgrounds/drop_shadow.png) repeat left top; float:left; position:absolute; font-size:1.2em; padding-right:2px; padding-bottom:2px; z-index:1010 }
+.toolTip div { background-color:#28aee1; color:#fff; padding:19px; border:1px solid #43c0f0; width:191px; float:left }
+.toolTip span { position:absolute; background:url(../images/backgrounds/tooltipArrow.png) no-repeat left top; display:block; height:13px; width:10px; left:-9px; top:19px }
+.toolTip img { float:left; margin-right:5px }
+#content .form .size50 .input .text,
+#content .form .size50 .input textarea { width:50px }
+#content .form .size70 .input .text,
+#content .form .size70 .input textarea,
+input.size70 { width:70px }
+#content .form .size80 .input .text,
+#content .form .size80 .input textarea,
+input.size80 { width:80px }
+#content .form .size100 .input .text,
+#content .form .size100 .input textarea,
+input.size100 { width:100px }
+#content .form .size130 .input .text,
+#content .form .size130 .input textarea { width:150px }
+#content .form .size140 .input .text,
+#content .form .size140 .input textarea { width:140px }
+#content .form .size150 .input .text,
+#content .form .size150 .input textarea { width:150px }
+#content .form .input .size170 { width:170px }
+.module .dob { margin-bottom:0 }
+.module .dob .validField .input,
+.module .dob .invalidField .input { width:110px }
+.module .dob .errorTooltip,
+.module .dob select.text { float:left }
+.module .dob .field { padding-bottom:0 }
+.module .dob .split4 .first { margin-left:0 }
+.module .dob .dobpad { padding:0 }
+#content .module .dob .input select.text { width:55px }
+.dateMovedIn select.text { width:auto; margin-right:15px }
+.form .dob p.label { padding-top:5px }
+.form .dob .input { padding-right:0 }
+.form .dob .input .input { padding-right:10px }
+.form .dob .split3 .field { width:auto }
+.form .dob .validImage,
+.form .dob .errorTooltip { padding:5px 0 0 }
+.dateMovedIn .input .input { padding-right:0 }
+.withJs .help { display:none }
+.withJs .field .help { display:block }
+.postCodePopulate { display:none; margin-top:10px }
+div.postcode input { float:left }
+div.postcode button { float:left }
+div.postcode a.secButton { clear:both; float:left }
+div.postcode a.errorTooltip { float:left; padding-top:3px; padding-left:5px; padding-right:5px }
+div.postcode .button { float:left }
+div.postcode button.primaryButton { margin-top:-5px; margin-left:5px }
+.withJs .form .address,
+.withJs .form .otherField { display:none }
+.adline1 h2.label { display:inline; width:210px; padding-right:10px; float:left; font-size:1.2em; text-align:right; font-weight:normal }
+#cprForm .adline2 { margin-left:0 }
+#cprForm .adline3 { margin-left:0 }
+.cprPermission .input { margin-left:214px; padding-right:5px }
+#content .cprPermission .label { width:60% }
+#content .cprPermission label { padding-top:0 }
+#contentSmall .passData label { float:left; width:400px }
+#contentSmall .formSectionTitle { font-size:1.6em; font-weight:bold; float:left; width:80px }
+#contentSmall .titleInput,
+#contentSmall .titleLabel,
+#contentSmall .addressLabel,
+#contentSmall .addressInput,
+#contentSmall .altNumberLabel,
+#contentSmall .altNumberInput { position:relative; top:10px; right:80px }
+#contentSmall .houseNumber,
+#contentSmall .altNumber { padding-bottom:0; line-height:18px }
+.radioSlider .input,
+.radioSlider .label { float:left }
+.withJs .basket .emptyBasket,
+.withJs .passwordPrompt { display:none }
+.withJs legend.radioSliderStatus { display:block }
+.forgotPassword { margin-top:-10px }
+.forgotPassword a { text-decoration:underline }
+.mainform { padding-bottom:0 }
+.validationErrorIn p { border-radius:5px; border-color:#2f2f2f #555 #ccc; border-left:1px solid #555; border-right:1px solid #555; border-style:solid; border-width:1px; background-color:#bd0000; font-size:1.4em; margin-bottom:0; padding:9px 20px 15px }
+.validationErrorIn img { float:left; margin:10px }
+.enquiryField div.label label { width:148px; float:right }
+#recaptcha_widget { padding-top:5px }
+#recaptcha_widget .module { float:left }
+#recaptcha_widget #recaptcha_image { padding-bottom:10px }
+#recaptcha_widget span.recaptcha_only_if_image,
+#recaptcha_widget span.recaptcha_only_if_audio { margin-bottom:10px; font-size:1.2em; display:block; width:150px }
+#recaptcha_widget .reCaptchaLogo { margin-left:35px }
+#recaptcha_widget #recaptcha_image a { font-size:1.2em; display:block; margin:-10px 0 5px; background:url("../images/buttons/secondaryButton.png") no-repeat scroll 0 0 transparent; min-height:17px; font-weight:bold; padding:2px 0 1px 20px }
+.reCaptchaIframe { width:500px; height:260px }
+.popup .form .input select.text { height:24px; width:223px }
+.modalContent .label { padding-bottom:0!important }
+.form div.labelCountry { text-align:left; display:block; padding-bottom:10px; float:left; width:210px; padding-right:10px; margin-top:30px }
+.marginShowAddress { margin-left:220px!important; margin-top:10px!important }
+.recaptchaMarginModule { margin-right:5px }
+.termsConditionsValid { margin-top:15px }
+.termsConditionsValid .errorTooltip,
+.termsConditionsValid .validImage { float:right }
+.floatLeft { float:left }
+.input #accountName { width:220px!important }
+.marginButtonBar a.secButton { font-weight:normal; margin-top:8px }
+.ui-dialog-titlebar-leapfrog { padding:.5em .5em .3em .3em!important }
+#leapFrogRewardsLoginPopUp .module p { padding:0 }
+.form .formHolder .formFields .formLeft div.field { padding:0 }

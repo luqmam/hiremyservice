@@ -1,0 +1,44 @@
+.ui-widget-content { border: none; background: none; color: none; }
+.ui-widget-header { border: 0; background: none; }
+.ui-tabs .ui-tabs-panel { display: block; border-width: 0; padding:6px 17px; background: none; }
+.ui-tabs .ui-tabs-nav li a { float: left; padding: 2px 48px; }
+.ui-widget { font-family: inherit; }
+.ui-helper-reset { list-style: none; }
+#tabs1 { margin:0; padding:0 }
+#tabs1 .ui-state-active,
+#tabs1 .ui-widget-content .ui-state-active,
+#tabs1 .ui-widget-header .ui-state-active { border:0; background: #ffffff url(../images/tabs/tabs-green-btn.jpg) 0% 0% repeat-x; }
+#tabs1 .ui-widget-content { border: 0 solid #aaaaaa; background: #ffffff url(../images/tabs/tabs-green-bg.jpg) 0% 0% repeat-x; }
+#tabs1 .ui-corner-all,
+#tabs1 .ui-corner-br,
+#tabs1 .ui-corner-all,
+#tabs1 .ui-corner-bl,
+#tabs3 .ui-corner-all,
+#tabs3 .ui-corner-br,
+#tabs3 .ui-corner-all,
+#tabs3 .ui-corner-bl { border-radius:4px; }
+#tabs2-container { background-image: url(../images/tabs/tabs-blue-bg.jpg); background-repeat:repeat-x; background-position:bottom; height:169px }
+#tabs2 { margin:0 auto; padding: 0px; width: 988px; }
+#tabs2 .ui-state-active,
+#tabs2 .ui-widget-content .ui-state-active,
+#tabs2 .ui-widget-header .ui-state-active { border:0; background: #ffffff url(../images/tabs/tabs-blue-bg.jpg) 0% 0% repeat-x; }
+#tabs2 .ui-corner-all,
+#tabs2 .ui-corner-br { border-radius:0 }
+#tabs2 .ui-tabs .ui-tabs-nav li { padding:0; border:0 }
+#tabs3 { margin:50px 0 100px 0; padding:0 }
+#tabs3 .ui-state-active,
+#tabs3 .ui-widget-content .ui-state-active,
+#tabs3 .ui-widget-header .ui-state-active { border:1px solid #fffff; background: #ffffff url(../images/tabs/stone-bg.jpg) 50% 50% repeat; }
+#tabs3 .ui-widget-content { border: 1px solid #aaaaaa; background: #ffffff url(../images/tabs/stone-bg.jpg) 50% 50% repeat; box-shadow:2px 2px 3px #666666 }
+#tabs3 .ui-state-active a,
+#tabs3 .ui-state-active a:link,
+#tabs3 .ui-state-active a:visited { color: #666; text-decoration: none; font-weight:bold; }
+#tabs3 .ui-widget { font-family: inherit; font-size: inherit; }
+#tabs3 .ui-tabs-nav { margin:0; padding:0 80px }
+#tabs3 #tab-1,
+#tabs3 #tab-2 { border-radius:4px }
+#tabs3 .ui-tabs-panel { padding: 20px 30px; }
+#tabs1 .ui-tabs-nav {
+margin: 0;
+padding: 0;
+}

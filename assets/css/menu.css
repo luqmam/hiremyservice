@@ -1,0 +1,29 @@
+#mylogin ul { margin:0; padding:10px 0 0 0 }
+#mylogin li { margin-right: 25px; padding:0; display: inline }
+#navmenu ul { margin:0; padding:10px 0 0 0 }
+#navmenu li { margin-right: 5px; padding:0; display: inline }
+
+.categories ul { margin: 0; padding: 0 0 19px 5px; display: inline-block; width: 187px; min-height: 0; vertical-align: top; /* For IE 7 */ zoom: 1; *display: inline;
+}
+.categories li { margin:0; padding:5px 0 }
+#confirmation ul li { margin:0; padding:1px 0 5px 0 }
+#search-panel ul { margin: 10px 25px; }
+#search-nav ul { margin: 15px 243px; }
+#search-nav ul li { display: inline-block; zoom: 1; background-color: rgb(206, 206, 206); padding: 1px 7px; margin: 0 auto; border: 1px solid #666; -moz-box-shadow: 1px 1px 1px #666; -webkit-box-shadow: 1px 1px 1px #666; box-shadow: 1px 1px 1px #666; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px; /* For IE 7 */ zoom: 1; *display: inline;
+}
+#my-details #nav ul { margin: 15px 370px; }
+#my-details #nav ul li { display: inline-block; zoom: 1; background-color: rgb(206, 206, 206); padding: 1px 7px; margin: 0 auto; border: 1px solid #666; -moz-box-shadow: 1px 1px 1px #666; -webkit-box-shadow: 1px 1px 1px #666; box-shadow: 1px 1px 1px #666; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px; /* For IE 7 */ zoom: 1; *display: inline;
+}
+#place-an-ad .search .main { border:0px solid green; visibility:visible; margin: 0; padding: 0 0 19px 5px; display: inline-block; width: 35%; min-height: 30px; vertical-align: top; /* For IE 7 */ zoom: 1; *display: inline;
+}
+#place-an-ad .search .sub,
+#place-an-ad .search .sub-sub { visibility: hidden }
+#place-an-ad .search .sub,
+#place-an-ad .search .sub-sub { margin: 0; padding:5px 5px 5px 5px; display: inline-block; width: 27%; min-height: 0; vertical-align: top; /* For IE 7 */ zoom: 1; *display: inline;
+}
+#place-an-ad .search .sub li,
+#place-an-ad .search .sub-sub li { border:0px solid yellow; margin:0; padding:5px 0; border-top: 1px solid #ccc; }
+#place-an-ad .search .sub li:first-child,
+#place-an-ad .search .sub-sub li:first-child { border-top: 0; }
+#details-logged-in .alternate-thumbs li { display: inline-block; zoom: 1; padding: 0; margin: 0 auto; background: url(../images/img-not-available.png) no-repeat; zoom: 1; width: 100px; height: 80px; /* For IE 7 */ zoom: 1; *display: inline;}
+#details-logged-in .alternate-thumbs li img{width: 100px; height: 80px; }

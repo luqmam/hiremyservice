@@ -1,0 +1,87 @@
+/* miscellaneous */ 
+
+.float-r { float:right }
+.float-l { float:left }
+#mylogin { margin: 2px 0 0 36px; padding: 0; }
+.clear,
+.form .field .validator,
+.form .field .ssValidator { display: block; }
+#logo { }
+.sell h1,
+.sell p,
+#tabs2 #tab-2 .ads-list,
+.categories h3 { margin:0; padding:0; }
+#fb-btn { margin:0; padding:10px 0 0 0 }
+#post-ad-btn { margin: 7px 0px; padding: 0; }
+.copyright { margin:0; padding: 10px 0 0 0; }
+.vline { background-image:url(../images/hline.png); width:1px; height:219px; margin:0 auto }
+#ads { border:1px solid; margin:30px 0 15px 0; padding:0; width:656px; height:306px; background-image: url(../images/home/ads.jpg); background-repeat:no-repeat; background-position:bottom; overflow:hidden; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; }
+#ads .slider-wrapper { padding:5px; max-width:650px; max-height:303px; margin:0 auto }
+#ads .nivo-prevNav { background: url("../images/scroll/arrows.png") no-repeat scroll 0 -70px transparent; display: block; width: 20px; height: 75px; }
+#ads .nivo-nextNav { background: url("../images/scroll/arrows.png") no-repeat scroll 0 -70px transparent; display: block; width: 20px; height: 75px; }
+.sell { border:1px solid; margin:30px 0 15px 21px; padding:0; width:305px; height:308px; background-image: url(../images/home/sell.jpg); background-repeat:no-repeat; background-position:bottom }
+.sell .details { margin:0; padding: 10px 15px; }
+.sell h2 { margin: 0; padding:14px 0 0 0; }
+.sell input[type=submit] { margin:10px 0 0 0 }
+#tabs1 .content { margin:10px 10px }
+#tabs2 #tab-1 .list,
+#tabs2 #tab-2 .list { margin:0 2px; padding:0; border:0; width:120px; height:105px; display:block; float:left; background-image: url(../images/ads-bg.png); background-repeat:no-repeat; }
+#tabs2 #tab-1 .list-img,
+#tabs2 #tab-2 .list-img,
+.list-img{ text-align:center; max-width: 114px; max-height: 83px; padding: 2px; text-align: center; margin: 0 auto; }
+#tabs2 #tab-1 .list-title,
+#tabs2 #tab-2 .list-title { margin: 85px 0 0 0; padding: 0; text-align: center; }
+#tabs2 .clear-history { margin-left:800px }
+#tabs3 #manage-ads input[type="checkbox"] { margin: 0 0 0 1px; }
+#tabs3 #manage-ads .myad-header { margin:15px 0 }
+#tabs3 #manage-ads .myad { margin:0; border-top:1px solid #CCC; border-bottom:1px solid #CCC; padding: 5px 0px; background-color:#e1eaf3 }
+#tabs3 #manage-ads .myad input[type="checkbox"] { margin:5px 0 0 0; }
+.gray-bg { background-image:url(../images/background/body-bg2.jpg) }
+.recommended { margin:0 auto; padding:10px 0 0 0; }
+.recommended h2 { margin:0; padding: 0 0 0 2px; }
+.recommended .ads-scrolling { margin:10px 0 0 0; padding:0; display:block; min-height:80px; }
+.categories { margin:0 auto; padding:0; display:block; min-height:250px; }
+.categories .col_a,
+.categories .col_b,
+.categories .col_c{ float: left; width: 33.33%}
+.clearboth { clear: both; }
+.categories .icon { background: transparent url(../images/home/recommmend_computer.jpg) no-repeat 3px 8px; }
+.box1 { margin:20px; padding:25px 35px; border: 1px solid #ccc; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; -moz-box-shadow: 2px 2px 3px #666; -webkit-box-shadow: 2px 2px 3px #666; box-shadow: 2px 2px 3px #666; outline: 0; background-image:url(../images/background/stone-bg.jpg); overflow:hidden }
+.box2 { margin:0 10px; padding:20px; border: 1px solid #CCC; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; background-color:#f8f6f6; overflow:hidden }
+.box3 { margin:0; padding:10px; border: 3px solid #fff; -moz-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px; background-color: #EEE; overflow:hidden }
+.box4 { margin:0 10px; padding:10px; border: 3px solid rgb(0, 139, 204); -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; background-color: #EEE; overflow:hidden }
+#search-panel { margin:5px 10px; padding:0; border: 1px solid #CCC; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; overflow:hidden; }
+#search-panel .box4{ padding:0}
+#search-panel .button { padding: 5px 20px; background-image: url(../images/search-panel-blue-btn.jpg); background-repeat:repeat-x }
+#sponsored-links,
+#search-result { margin:0; padding:10px 0 0 0; border:0px solid black; display:block; }
+#sponsored-links h2,
+#search-result h2 { margin:0 0 10px 0; padding:0 }
+#sponsored-links img,
+#search-result img { margin:0; padding:0; background-image: url(../images/ads-bg.png); background-repeat:no-repeat; overflow:hidden }
+#sponsored-links img.logo,
+#search-result img.logo { width:120px; height:88px; }
+ 
+.sponsored-result,
+.featured-result,
+.normal-result { margin:0; padding:10px; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc;   }
+.featured-result {background-color:#eff8ed }
+
+#ad-view-header { margin:15px 0 0 0; padding:0 }
+#ad-view-header input { margin:0 0 10px 0; }
+#ad-view-display { border: 0px solid red; }
+#ad-view-display img.big { max-width:430px; max-height:350px }
+#ad-view-display img { max-width:99px; max-height:99px }
+#ad-view-display a:first-child { margin:0; padding:0; border:0px solid green; }
+#ad-view-display li { margin:0; padding:0; border:0px solid gray; display: inline-block; background: #ccc; vertical-align: top; /* For IE 7 */ zoom: 1; *display: inline;
+}
+#ad-view { margin:10px 0; padding:10px 0; border-bottom:1px solid #CCC; border-top:1px solid #CCC; }
+#place-an-ad .search { margin:0 auto; padding:0; display:block; }
+#place-an-ad .search .icon { background: transparent url(../images/home/recommmend_computer.jpg) no-repeat 3px 8px; }
+#place-an-ad .search .main h3 { margin: 3px 0 0 50px; border: 1px solid #CCC; height:auto; width: 200px; background: url(../images/post-an-ad/light-gray-bg.png) repeat-x; border-radius: 8px; padding: 7px 20px; overflow:hidden; font-size:110%; }
+#place-an-ad .search .sub h3,
+#place-an-ad .search .sub-sub h3 { margin: 0; padding: 5px 8px; border: 0px solid #CCC; height:auto; width:90%; background: none; border-radius: 8px; overflow:hidden; font-size:110%; }
+.a ctive-blue { background-image:url(../images/post-an-ad/blue-bg.png); background-repeat:repeat-x; color: #FFFFFF; font-size: 110%; }
+#place-an-ad input[type="checkbox"] { }
+#details-logged-in .main-thumb { background: url(../images/img-not-available.png) no-repeat; width: 100px; height: 80px; }
+ 

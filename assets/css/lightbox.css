@@ -1,0 +1,8 @@
+#lightbox { z-index: 1001; width: 100%; height: 100%; display: none; position: absolute; background-color: #999; opacity: .60; top: 0; left: 0; }
+#lightbox-maps { z-index: 1002; position: absolute; left: 40%; top: 35%; height: auto; border: 2px solid #33CCFF; background-color: rgb(255, 255, 255); padding: 15px; display: none; width:626px; margin: -100px 0 0 -200px; border-radius: 25px; }
+#lightbox-maps .box4{ padding:0}
+#lightbox-report-ad { margin: 7px 10px; padding:0; border: 3px solid #CCC; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; z-index: 1002; position: absolute; left: 29%; top: 25%; height: auto; display: none; background-color: rgb(255, 255, 255); width:640px;overflow: hidden; }
+#lightbox-report-ad h1 { padding: 5px 20px; background-image: url(../images/search-panel-blue-btn.jpg); background-repeat:repeat-x; color:#fff }
+#lightbox-report-ad .content{ margin:23px 50px}
+#lightbox-report-ad img{ margin:7px 10px}
+ 

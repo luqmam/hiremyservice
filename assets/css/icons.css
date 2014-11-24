@@ -1,0 +1,52 @@
+.icon-blue-accountancy, 
+.icon-blue-car,
+.icon-blue-care,
+.icon-blue-computer,
+.icon-blue-education,
+.icon-blue-guides,
+.icon-blue-household,
+.icon-blue-transportation,
+.icon-arrow-right,
+.icon-blue-travel { width: 40px; height: 40px; display:block }
+.icon-blue-accountancy { background:url(../images/post-an-ad/icon-blue-accountancy.png) no-repeat }
+.icon-blue-car { background:url(../images/post-an-ad/icon-blue-car.png) no-repeat }
+.icon-blue-care { background:url(../images/post-an-ad/icon-blue-care.png) no-repeat }
+.icon-blue-computer { background:url(../images/post-an-ad/icon-blue-computer.png) no-repeat }
+.icon-blue-education { background:url(../images/post-an-ad/icon-blue-education.png) no-repeat }
+.icon-blue-guides { background:url(../images/post-an-ad/icon-blue-guides.png) no-repeat }
+.icon-blue-household { background:url(../images/post-an-ad/icon-blue-household.png) no-repeat }
+.icon-blue-transportation { background:url(../images/post-an-ad/icon-blue-transportation.png) no-repeat }
+.icon-blue-travel { background:url(../images/post-an-ad/icon-blue-travel.png) no-repeat }
+.icon-arrow-right { background: url(../images/icon-arrow-right.png) no-repeat; border: 0px solid red; margin: -31px 0 0 293px; }
+.icon-delta,
+.icon-floppy,
+.icon-floppy-saved,
+.icon-file { width: 40px; height: 40px; display:block }
+.icon-delta { background: url(../images/icon-delta.png) no-repeat }
+.icon-floppy { background:url(../images/icon-floppy.png) no-repeat }
+.icon-floppy-saved { background:url(../images/icon-floppy-saved.png) no-repeat }
+.icon-file { background:url(../images/icon-file.png) no-repeat }
+.icon-accountancy,
+.icon-car,
+.icon-care,
+.icon-computer,
+.icon-education,
+.icon-guides,
+.icon-household,
+.icon-transportation,
+.icon-travel,
+.icon-heart,
+.icon-relocation,
+.icon-travek { width: 25px; height: 25px; float: left; }
+.icon-accountancy { background:url(../images/home/recommmend_accountancy.jpg) no-repeat }
+.icon-car { background: url(../images/home/recommmend_car.jpg) no-repeat }
+.icon-care { background:  no-repeat }
+.icon-computer { background: url(../images/home/recommmend_computer.jpg) no-repeat }
+.icon-education { background: url(../images/home/recommmend_education.jpg) no-repeat }
+.icon-guides { background: url(../images/home/recommmend_guides.jpg) no-repeat }
+.icon-household { background: url(../images/home/recommmend_house.jpg) no-repeat }
+.icon-transportation { background: url(../images/home/recommmend_transportation.jpg) no-repeat }
+.icon-travel { background: url(../images/home/recommmend_travel.jpg) no-repeat }
+.icon-heart { background: url(../images/home/recommmend_heart.jpg) no-repeat }
+.icon-relocation { background: url(../images/home/recommmend_relocation.jpg) no-repeat }
+.icon-travek { background: url(../images/home/recommmend_travel.jpg) no-repeat }
